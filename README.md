@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import BetaPrime from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-ctor@esm/index.mjs';
+import BetaPrime from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-ctor@v0.1.0-esm/index.mjs';
 ```
 
 #### BetaPrime( \[alpha, beta] )
@@ -275,7 +275,7 @@ y = betaprime.quantile( 1.9 );
 <body>
 <script type="module">
 
-import BetaPrime from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-ctor@esm/index.mjs';
+import BetaPrime from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-ctor@v0.1.0-esm/index.mjs';
 
 var betaprime = new BetaPrime( 2.0, 4.0 );
 
