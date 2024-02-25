@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import BetaPrime from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-ctor@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-base-dists-betaprime-ctor/tags). For example,
+
+```javascript
 import BetaPrime from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-ctor@v0.2.1-deno/mod.js';
 ```
 
@@ -270,7 +275,7 @@ y = betaprime.quantile( 1.9 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import BetaPrime from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-ctor@v0.2.1-deno/mod.js';
+import BetaPrime from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-dists-betaprime-ctor@deno/mod.js';
 
 var betaprime = new BetaPrime( 2.0, 4.0 );
 
